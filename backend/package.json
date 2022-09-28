@@ -1,0 +1,22 @@
+{
+  "name": "inotebook-backend",
+  "version": "1.0.0",
+  "description": "iNoteBook is note on the clouds. It is a note taking app that saves the notes in it on the servers on the cloud. It has an authentication method which gives access to the notes to its rightful users. It can be accessed from anywhere on the web and can view, edit and add notes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kamlesh Borana (KB)",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
